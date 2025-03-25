@@ -1,0 +1,37 @@
+{
+  "R": {
+    "Version": "4.4.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://packagemanager.posit.co/cran/latest"
+      }
+    ]
+  },
+  "Packages": {
+    "RDCOMClient": {
+      "Package": "RDCOMClient",
+      "Version": "0.96-1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "RDCOMClient",
+      "RemoteUsername": "omegahat",
+      "RemoteSha": "c8f708a4ebdbead5ff9a319fe6db63732f2e53f0",
+      "Requirements": [
+        "methods"
+      ],
+      "Hash": "a123fcc13a074d3470dde970550be4a2"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "1.0.11",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "47623f66b4e80b3b0587bc5d7b309888"
+    }
+  }
+}
