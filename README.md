@@ -1,6 +1,6 @@
 # READ ME
 
-This repo has all the resources you need to automate an email and is specifically designed for federal employees. The script executes an outgoing email to the user specified recipients. The content of the email will be n bullet points (user specified) of text strings that are randomly sampled m times (user specified) without replacement.
+This repo has all the resources you need to automate an email and is specifically designed for federal employees. The script executes an outgoing email to the user specified recipients. The content of the email will be *n* bullet points (user specified) of text strings that are randomly sampled *m* times (user specified) without replacement.
 
 # Instructions
 
