@@ -1,5 +1,22 @@
 library(RDCOMClient)
-#
+
+############------------ USER INPUTS ------------ ############
+recipient = "HR@OPM.gov"
+cc = "supervisor@agency.gov"
+subject = "5 bullets" 
+n = 3 #.................number of bullets/samples for RNG
+
+options = c(
+  "this week I lived",
+  "this week I laughed",
+  "this week I loved",
+  "this week I accomplished task 1",
+  "this week I accomplished task 2",
+  "this week I accomplished task 3",
+  "this week I accomplished task 4"
+)
+############------------ END ------------ ############
+
 send_email <- function(vec_to = "",
                        vec_cc = "",
                        vec_bcc = "",
@@ -33,20 +50,6 @@ send_email <- function(vec_to = "",
   
   Email$Send()
 }
-recipient = "HR@OPM.gov"
-cc = "supervisor@agency.gov"
-subject = "5 bullets" 
-n = 3 #.................number of bullets/samples for RNG
-
-options = c(
-  "this week I lived",
-  "this week I laughed",
-  "this week I loved",
-  "this week I accomplished task 1",
-  "this week I accomplished task 2",
-  "this week I accomplished task 3",
-  "this week I accomplished task 4"
-)
 
 this_week = paste0("<li>", sample(options, n), "</li>", collapse="")
 
