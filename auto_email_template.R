@@ -35,7 +35,8 @@ send_email <- function(vec_to = "",
 }
 recipient = "HR@OPM.gov"
 cc = "supervisor@agency.gov"
-subject = "5 bullets"
+subject = "5 bullets" 
+n = 3 #.................number of bullets/samples for RNG
 
 options = c(
   "this week I lived",
@@ -47,7 +48,7 @@ options = c(
   "this week I accomplished task 4"
 )
 
-this_week = paste0("<li>", sample(options, 3), "</li>", collapse="")
+this_week = paste0("<li>", sample(options, n), "</li>", collapse="")
 
 body = paste0("<ul>", this_week, "</ul>")
 
