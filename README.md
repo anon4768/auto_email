@@ -11,4 +11,4 @@ This repo has all the resources you need to automate an email and is specificall
 
 3. Adjust the file 'execute_email_template.bat' by changing the relevant file paths.
 
-4. After you customize necessary files, you can navigate to your start menu and search "task scheduler". From here, you want to follow the directions found [here](https://www.carlosivanrodriguez.com/guides/workflow/automating-r-scripts-windows/) under the section titled "Use task Schedule R".
+4. After you customize necessary files, you can navigate to your start menu and search "task scheduler". From here, you want to follow the directions found [here](https://carlosivanrodriguez.com/how-to/automate_r_scripts.html) under the section titled "Configure Task Scheduler". Note: since the creation of this repo, the link as been updated and instructions are not the same as what the author of this current repo saw when creating this repo. However, the instructions on how to use Task Scheduler should not be much different.
